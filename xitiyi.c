@@ -15,7 +15,8 @@ int main()
    {
    state=0;
    }  //printf("%d\n",state);}
-    else if (sum>0)   {
+    else if (sum>0)   
+    {
         while(  he!=sum )
          {
              scanf( "%d,%d",&a,&b);
@@ -24,8 +25,9 @@ int main()
                 {
                 state=0; // printf("%d\n",state);
                 }
-       }
-      }
+       
+         }
+    }
       if( state==1)
       printf("victory");
        else
